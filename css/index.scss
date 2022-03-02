@@ -1065,7 +1065,7 @@ body{
 	}
 	
 	#DesktopFooter{
-		
+		position: absolute;
 		display: flex;
 		justify-content: space-between;
 		background-color: #171717;
@@ -1073,8 +1073,9 @@ body{
 		width: 100%;
 		bottom: 0;
 		z-index: 25;
-		padding: 13px 0px;
-		
+		padding: 12px 0px;
+		font-family: 'Prompt', sans-serif;
+		font-weight: 600;
 		.contact{
 			
 			display: flex;
@@ -1085,6 +1086,9 @@ body{
 			h6{
 				margin: 0;
 				margin-right: 7em;
+				font-family: 'Prompt', sans-serif;
+				font-weight: 600;
+				letter-spacing: 2px;
 			}
 			
 			img{
@@ -1095,7 +1099,10 @@ body{
 		}
 		
 		h6{
-			margin: 0em 4em 0em 0em;
+			margin: 0em 4em 0em 7em;
+			font-family: 'Prompt', sans-serif;
+			font-weight: 600;
+			letter-spacing: 2px;
 		}
 	}
 }
