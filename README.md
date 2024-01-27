@@ -1,3 +1,3 @@
 # Air-Secure Logistics
  
-`It is static website development with HTML, CSS, SASS, PHP.`
+It is static web development project with HTML, CSS, SASS.
